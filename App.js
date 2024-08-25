@@ -35,7 +35,7 @@ export default function App() {
       {weather ? (
         <>
           <Text style={styles.text}>
-            Temperature: {weather.hourly.temperature_2m[0]} C
+            Temperature: {weather.hourly.temperature_2m[0]} °C
           </Text>
           <Text style={styles.text}>
             Description: Not provided by Open-Meteo API
